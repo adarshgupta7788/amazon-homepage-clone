@@ -322,3 +322,54 @@ html,body{
 }
 
 }
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        height:auto;
+        padding:10px;
+    }
+
+    .nav-add,
+    .country,
+    .signin,
+    .return,
+    .cart{
+        width:100%;
+        justify-content:center;
+        margin:5px 0;
+    }
+
+    .nav-search{
+        width:100%;
+    }
+
+    .search-bar{
+        width:100%;
+    }
+
+    .hero-msg{
+        margin:20px;
+    }
+
+    .panel{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .panelop{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .panelop p{
+        margin:8px 0;
+    }
+
+    .box{
+        width:95%;
+    }
+
+}
